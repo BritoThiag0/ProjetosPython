@@ -49,8 +49,8 @@ def delete():
     conexao.commit()  # Quando edita o banco de dados precisa commitar
 
 
-# create()
-read()
+create()
+# read()
 # update()
 # delete()
 

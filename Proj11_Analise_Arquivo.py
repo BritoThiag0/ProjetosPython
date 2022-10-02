@@ -28,8 +28,8 @@ print('-' * 50)
 
 
 # Ticket médio por produto em cada loja
-tab_ticket_medio = (tab_faturamento['Valor Final'] /
-                    tab_quantidade['Quantidade']).to_frame()
+tab_ticket_medio = (
+    tab_faturamento['Valor Final'] / tab_quantidade['Quantidade']).to_frame()
 # To_frame tranforma a serie em um data frame (tabela)
 tab_ticket_medio = tab_ticket_medio.rename(columns={0: 'Ticket Médio'})
 print(tab_ticket_medio)
