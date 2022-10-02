@@ -1,5 +1,6 @@
 # Projeto 12
 # Recomendações de filmes baseadas nas solicitações do usuário e no Rotten Tomatoes
+# Link do projeto no COLAB: https://colab.research.google.com/drive/1g9SRUG30xdGVu71mIFPp_a_2NZ2rY0hQ?usp=sharing
 
 
 import requests
